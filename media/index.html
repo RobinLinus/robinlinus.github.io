@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Talks, Podcasts & Interviews – Robin Linus</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Podcasts and interviews with Robin Linus on Bitcoin, BitVM, and ZeroSync">
+
+    <base target="_blank" rel="nofollow">
+    <style>
+    html {
+        font-family: system-ui;
+        --cta-color: #1565c0;
+        padding: 0;
+    }
+
+    main {
+        padding-top: 32px;
+        max-width: 720px;
+        margin: 0 auto;
+        min-height: 80vh;
+        width: 100%;
+    }
+
+    li,
+    p {
+        line-height: 24px;
+    }
+
+    h2 {
+        margin-top: 32px;
+        color: rgb(119 119 119);
+    }
+
+    footer {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+    }
+
+    a {
+        text-decoration: none;
+        /*display: inline-block;*/
+        position: relative;
+        color: var(--cta-color);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links:after {
+        content: none;
+    }
+
+    #links div {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    h1 {
+        letter-spacing: 0.10em;
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    body {
+        border-left: 12px solid #ff9900b3;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-right: 16px;
+        padding-left: 16px;
+    }
+
+    @media (max-width: 520px) {
+        body {
+            border-left-width: 4px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            margin-right: 12px;
+            padding-left: 12px;
+        }
+    }
+
+    .back-link {
+        font-size: 14px;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .back-link:after {
+        display: none;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    .lang {
+        font-size: 11px;
+        color: #999;
+        margin-left: 6px;
+        font-style: normal;
+    }
+
+    .date {
+        color: #aaa;
+        font-size: 13px;
+        margin-right: 6px;
+    }
+
+    .filters {
+        display: flex;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .filter-btn {
+        border: 1px solid #ccc;
+        background: none;
+        border-radius: 4px;
+        padding: 4px 12px;
+        font-size: 13px;
+        cursor: pointer;
+        color: #555;
+    }
+
+    .filter-btn.active {
+        background: #ff9900b3;
+        border-color: #ff9900b3;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    li.hidden {
+        display: none;
+    }
+
+    h2.hidden {
+        display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <main>
+        <a href="/" class="back-link" target="_self">← Robin Linus</a>
+        <h1>Talks, Podcasts &amp; Interviews</h1>
+        <div class="filters">
+            <button class="filter-btn active" data-lang="English">English</button>
+            <button class="filter-btn active" data-lang="German">Deutsch</button>
+        </div>
+        <div id="list"></div>
+    </main>
+    <footer>
+        <div id="links">
+            <span>💪🤓🧡</span>
+            <div>
+                <a href="https://github.com/robinlinus" title="Open source development on Github">GitHub</a> |
+                <a href="https://twitter.com/intent/follow?region=follow_link&screen_name=robin_linus">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+    const hidden = new Set();
+
+    function applyFilter() {
+        document.querySelectorAll('#list li').forEach(li => {
+            li.classList.toggle('hidden', hidden.has(li.dataset.lang));
+        });
+        document.querySelectorAll('#list h2').forEach(h2 => {
+            const ul = h2.nextElementSibling;
+            const allHidden = [...ul.querySelectorAll('li')].every(li => li.classList.contains('hidden'));
+            h2.classList.toggle('hidden', allHidden);
+        });
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.dataset.lang;
+            if (hidden.has(lang)) {
+                hidden.delete(lang);
+                btn.classList.add('active');
+            } else {
+                hidden.add(lang);
+                btn.classList.remove('active');
+            }
+            applyFilter();
+        });
+    });
+
+    fetch('media.json')
+        .then(r => r.json())
+        .then(items => {
+            items.sort((a, b) => b.date.localeCompare(a.date));
+
+            const byYear = {};
+            for (const item of items) {
+                const year = item.date.slice(0, 4);
+                (byYear[year] = byYear[year] || []).push(item);
+            }
+
+            const container = document.getElementById('list');
+            for (const year of Object.keys(byYear).sort((a, b) => b - a)) {
+                const h2 = document.createElement('h2');
+                h2.textContent = year;
+                container.appendChild(h2);
+
+                const ul = document.createElement('ul');
+                for (const item of byYear[year]) {
+                    const li = document.createElement('li');
+                    li.dataset.lang = item.language;
+                    const a = document.createElement('a');
+                    a.href = item.link;
+                    a.textContent = item.title;
+                    li.appendChild(a);
+                    if (item.language !== 'English') {
+                        const lang = document.createElement('span');
+                        lang.className = 'lang';
+                        lang.textContent = item.language;
+                        li.appendChild(lang);
+                    }
+                    ul.appendChild(li);
+                }
+                container.appendChild(ul);
+            }
+        });
+    </script>
+</body>
+
+</html>

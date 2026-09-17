@@ -1,0 +1,488 @@
+[
+  {
+    "title": "Stakechains: A Bitcoin-backed Proof-of-Stake — CoDecFin 2022",
+    "date": "2022-05-06",
+    "link": "https://youtu.be/xItiiU4klJY",
+    "language": "English"
+  },
+  {
+    "title": "Newly Formed ZeroSync Association Brings Zero-Knowledge Proofs to Bitcoin",
+    "date": "2023-03-28",
+    "link": "https://www.coindesk.com/tech/2023/03/28/newly-formed-zerosync-association-brings-zero-knowledge-proofs-to-bitcoin",
+    "language": "English"
+  },
+  {
+    "title": "ZKPs to Scale Bitcoin Node Running – Blockstream Talk #22",
+    "date": "2023-04-18",
+    "link": "https://www.youtube.com/watch?v=Ia-mH6XuFcA",
+    "language": "English"
+  },
+  {
+    "title": "Zero-Knowledge Proofs for Bitcoin — MIT Bitcoin Expo 2023",
+    "date": "2023-04-22",
+    "link": "https://vimeo.com/818898756#t=4:49:22",
+    "language": "English"
+  },
+  {
+    "title": "Building a Zero Knowledge Proof System for Bitcoin — Bitcoin Builders 2023",
+    "date": "2023-05-17",
+    "link": "https://www.youtube.com/watch?v=HQBHnpX3yp8",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #252 Recap Podcast",
+    "date": "2023-05-25",
+    "link": "https://bitcoinops.org/en/podcast/2023/05/25/",
+    "language": "English"
+  },
+  {
+    "title": "SLP484 Robin Linus ZeroSync: Speeding up Bitcoin Initial Block Download (IBD)",
+    "date": "2023-06-05",
+    "link": "https://stephanlivera.com/episode/484/",
+    "language": "English"
+  },
+  {
+    "title": "Ark Whiteboard Masterclass with Burak & Robin",
+    "date": "2023-06-06",
+    "link": "https://www.youtube.com/watch?v=EocWax43QgQ",
+    "language": "English"
+  },
+  {
+    "title": "Introducing Validity Proofs to Bitcoin — Bitcoin 2023",
+    "date": "2023-06-10",
+    "link": "https://www.youtube.com/watch?v=rvOrbejf6_A",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #257 Recap Podcast",
+    "date": "2023-06-29",
+    "link": "https://bitcoinops.org/en/podcast/2023/06/29/",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin STARKs — StarknetCC 2023",
+    "date": "2023-07-21",
+    "link": "https://www.youtube.com/live/8KhX5B2AGt0?feature=share&t=1466",
+    "language": "English"
+  },
+  {
+    "title": "zkCoins: A Novel Token Protocol with Strong Privacy and Scalability — BTC Startup Lab",
+    "date": "2023-07-28",
+    "link": "https://youtu.be/SsE5VoEcT0k?t=3761",
+    "language": "English"
+  },
+  {
+    "title": "Can the Bitcoin Blockchain Be Compressed from 600GB Down to a Few MBs?",
+    "date": "2023-09-17",
+    "link": "https://x.com/BitcoinNewsCom/status/1703310805846950201",
+    "language": "English"
+  },
+  {
+    "title": "Wird Bitcoin durch BitVM zum Altcoin-Killer?",
+    "date": "2023-10-11",
+    "link": "https://www.btc-echo.de/news/bitvm-smart-contracts-auf-bitcoin-172734/",
+    "language": "German"
+  },
+  {
+    "title": "#204 – Wir sind Turing Complete!",
+    "date": "2023-10-12",
+    "link": "https://open.spotify.com/episode/1mTU4RJzdRUZqIA3fm4Qi5",
+    "language": "German"
+  },
+  {
+    "title": "What Is BitVM? with Robin Linus and Super Testnet (SLP520)",
+    "date": "2023-10-12",
+    "link": "https://stephanlivera.com/episode/520/",
+    "language": "English"
+  },
+  {
+    "title": "BBP Interview #11 – BitVM mit Robin Linus",
+    "date": "2023-10-16",
+    "link": "https://www.blocktrainer.de/wissen/blocktrainer-podcast#1697483560",
+    "language": "German"
+  },
+  {
+    "title": "Wir brauchen ein Geld, das auf Mathematik basiert – Robin Linus",
+    "date": "2023-10-17",
+    "link": "https://www.wasbitcoinbringt.com/robin/",
+    "language": "German"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #273 Recap Podcast",
+    "date": "2023-10-19",
+    "link": "https://bitcoinops.org/en/podcast/2023/10/19/",
+    "language": "English"
+  },
+  {
+    "title": "Robin Linus & Lukas George — Bitcoin Amsterdam 2023",
+    "date": "2023-10-30",
+    "link": "https://www.youtube.com/watch?v=rubs5SrkGsM",
+    "language": "English"
+  },
+  {
+    "title": "Chat_86 – Everything on Bitcoin with Robin Linus & Super Testnet",
+    "date": "2023-11-01",
+    "link": "https://www.youtube.com/watch?v=1WA_yxV22Yo",
+    "language": "English"
+  },
+  {
+    "title": "Let’s Talk About Covenants",
+    "date": "2023-11-09",
+    "link": "https://open.spotify.com/episode/3qFREWQYGdpR2prlfyxiwd",
+    "language": "English"
+  },
+  {
+    "title": "Robin Linus AMA",
+    "date": "2023-11-14",
+    "link": "https://www.stacker.news/items/316211",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #278 Recap Podcast",
+    "date": "2023-11-22",
+    "link": "https://bitcoinops.org/en/podcast/2023/11/22/",
+    "language": "English"
+  },
+  {
+    "title": "S15 E13: Robin Linus on BitVM & Permissionless Bitcoin Development",
+    "date": "2023-12-31",
+    "link": "https://www.youtube.com/watch?v=Defp4sX7eEc",
+    "language": "English"
+  },
+  {
+    "title": "Robin Linus of ZeroSync & BITVM.ORG | Pioneering Proof Systems, Adoption in Bitcoin",
+    "date": "2024-01-11",
+    "link": "https://podcasts.apple.com/us/podcast/robin-linus-of-zerosync-bitvm-org-pioneering-proof/id1631179152?i=1000641313020",
+    "language": "English"
+  },
+  {
+    "title": "Robin Linus on BitVM",
+    "date": "2024-01-16",
+    "link": "https://brink.dev/blog/2024/01/16/eng-call-bitvm/",
+    "language": "English"
+  },
+  {
+    "title": "L2L Spaces w/ Paul Sztorc and Robin Linus",
+    "date": "2024-01-26",
+    "link": "https://x.com/i/spaces/1kvJpvldkqgKE",
+    "language": "English"
+  },
+  {
+    "title": "Frontiers in Layer 1 Blockchain Infrastructure — Princeton DeCenter Spring Conference 2024",
+    "date": "2024-04-17",
+    "link": "https://decenter.princeton.edu/events/spring-conference-2024/",
+    "language": "English"
+  },
+  {
+    "title": "BitVM: Smarter Bitcoin Contracts — ZKProof 6",
+    "date": "2024-05-23",
+    "link": "https://www.youtube.com/live/VIg7BjX_lJw",
+    "language": "English"
+  },
+  {
+    "title": "BitVM: The Holy Grail for Bitcoin? | Creator Robin Linus (Bankless)",
+    "date": "2024-06-13",
+    "link": "https://www.youtube.com/watch?v=8HqDykVPypM",
+    "language": "English"
+  },
+  {
+    "title": "MIT Bitcoin Expo 2024: Scaling Up — BitVM",
+    "date": "2024-07-16",
+    "link": "https://www.youtube.com/watch?v=nhR_g9hPnqM",
+    "language": "English"
+  },
+  {
+    "title": "Imagining Future Sidechains",
+    "date": "2024-07-25",
+    "link": "https://www.youtube.com/watch?v=wSbYx79q52k",
+    "language": "English"
+  },
+  {
+    "title": "BitVM: Pushing Innovation Without a Soft Fork — Bitcoin 2024 Nashville",
+    "date": "2024-07-26",
+    "link": "https://www.youtube.com/watch?v=c1CW1v4u99g",
+    "language": "English"
+  },
+  {
+    "title": "Dark Skippy: A New Attack on Bitcoin Hardware Wallets? With Nick, Lloyd and Robin (SLP597)",
+    "date": "2024-08-14",
+    "link": "https://stephanlivera.com/episode/597/",
+    "language": "English"
+  },
+  {
+    "title": "Interview with Robin Linus on Bitcoin",
+    "date": "2024-09-02",
+    "link": "https://www.linkedin.com/posts/financial-fox_blockchain-decentralization-security-activity-7236302310572765184-106v",
+    "language": "English"
+  },
+  {
+    "title": "#256 – First Whale Problems",
+    "date": "2024-10-04",
+    "link": "https://einundzwanzig.space/podcast/news-256-first-whale-problems/",
+    "language": "German"
+  },
+  {
+    "title": "S15 E58: Liam Eagen, Robin Linus & Jonas Nick on Shielded Client Side Validation & Bitcoin Privacy",
+    "date": "2024-10-10",
+    "link": "https://www.youtube.com/watch?v=f8aNWuBNnik",
+    "language": "English"
+  },
+  {
+    "title": "Make Bitcoin Cypherpunk Again! — TABConf 6",
+    "date": "2024-12-09",
+    "link": "https://www.youtube.com/watch?v=zoHriUbvOss",
+    "language": "English"
+  },
+  {
+    "title": "An Introduction to BitVM — The Bitcoin Economy Conference",
+    "date": "2025-01-31",
+    "link": "https://www.hozk.io/events/the-bitcoin-economy-conference",
+    "language": "English"
+  },
+  {
+    "title": "BITVM3: Are Garbled Circuits the Key to Scale? — ETHDenver Bitcoin Summit",
+    "date": "2025-02-26",
+    "link": "https://www.youtube.com/watch?v=qQ7hH879YYw",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Transactions and Bitcoin Script — Stanford EE374 Lecture 4",
+    "date": "2025-04-09",
+    "link": "https://web.stanford.edu/class/ee374/lectures.html",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #354 Recap Podcast",
+    "date": "2025-05-20",
+    "link": "https://bitcoinops.org/en/podcast/2025/05/20/",
+    "language": "English"
+  },
+  {
+    "title": "Interview with Robin Linus — BitVM2: The Enabling Technology",
+    "date": "2025-05-28",
+    "link": "https://www.hozk.io/zk-the-bitcoin-economy-conference/agenda",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #357 Recap Podcast",
+    "date": "2025-06-10",
+    "link": "https://bitcoinops.org/en/podcast/2025/06/10/",
+    "language": "English"
+  },
+  {
+    "title": "The Birth of BitVM and the Fight for ‘End Game’ Money | with Robin Linus",
+    "date": "2025-06-18",
+    "link": "https://www.youtube.com/watch?v=oWw1XZuMIpw",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin Optech Newsletter #359 Recap Podcast",
+    "date": "2025-06-24",
+    "link": "https://bitcoinops.org/en/podcast/2025/06/24/",
+    "language": "English"
+  },
+  {
+    "title": "Nodesignal-Techboost – E237 – Ark, mit Robin Linus",
+    "date": "2025-06-27",
+    "link": "https://nodesignal.space/E237/",
+    "language": "German"
+  },
+  {
+    "title": "BitVM Creator Explains: This Breakthrough Will REVOLUTIONIZE Bitcoin w/ Robin Linus",
+    "date": "2025-07-02",
+    "link": "https://www.youtube.com/watch?v=M-PIOaHxX4c",
+    "language": "English"
+  },
+  {
+    "title": "BitVM Research Update — bitvm/acc Cannes",
+    "date": "2025-07-02",
+    "link": "https://www.youtube.com/watch?v=KovMufNtugQ",
+    "language": "English"
+  },
+  {
+    "title": "Make Bitcoin Cypherpunk Again with zkCoins — Bitcoin 2025",
+    "date": "2025-07-02",
+    "link": "https://www.youtube.com/watch?v=XIZ3bTZ4VpE",
+    "language": "English"
+  },
+  {
+    "title": "BitVM2: Bridging Bitcoin to Second Layers — Science of Blockchain Conference 2025 at Berkeley",
+    "date": "2025-08-06",
+    "link": "https://www.youtube.com/live/84tBYn6qot8?feature=shared&t=5337",
+    "language": "English"
+  },
+  {
+    "title": "BitVM3: Garbled Circuits — bitcoin++ Istanbul 2025",
+    "date": "2025-09-03",
+    "link": "https://www.youtube.com/live/gWWxDd3mhZc?t=1332s",
+    "language": "English"
+  },
+  {
+    "title": "BitVM: Bridging Bitcoin — bitcoin++ Istanbul 2025",
+    "date": "2025-09-05",
+    "link": "https://www.youtube.com/live/S162rwnTVDs?t=19051s",
+    "language": "English"
+  },
+  {
+    "title": "Münzgasse #58 Bitcoin Skalierung Realtalk (mit Robin Linus und Chris Seedor)",
+    "date": "2025-09-13",
+    "link": "https://podcasts.apple.com/us/podcast/m%C3%BCnzgasse-58-bitcoin-skalierung-realtalk-mit/id1583957468?i=1000726536897",
+    "language": "German"
+  },
+  {
+    "title": "ZK Industry Leaders: Scaling Bitcoin with Robin Linus, Creator of BitVM",
+    "date": "2025-09-30",
+    "link": "https://www.youtube.com/watch?v=8zCB2yXHINM",
+    "language": "English"
+  },
+  {
+    "title": "BitVM: Garbled Circuits, Trustless Bridges, Oh My! Building Bitcoin’s Next Generation Infrastructure — TABConf 7",
+    "date": "2025-10-15",
+    "link": "https://www.fairgate.io/newsletter/63/01-tabconf-panel-highlights-bitvm2-bitvm3-progress-trustless-bridges",
+    "language": "English"
+  },
+  {
+    "title": "#86: Robin Linus, Creator of BitVM & ZeroSync",
+    "date": "2025-11-11",
+    "link": "https://open.spotify.com/episode/4MVdMt307ybY0yhL9ihyZa",
+    "language": "English"
+  },
+  {
+    "title": "Robin Linus Presents BitVM3 — Bitcoin Amsterdam 2025",
+    "date": "2025-11-18",
+    "link": "https://www.youtube.com/watch?v=_lYakucObZ0",
+    "language": "English"
+  },
+  {
+    "title": "S17 E4: {ideal} BitVM Optimizations (Robin Linus, Liam Eagen, Ying Tong Lai)",
+    "date": "2026-01-24",
+    "link": "https://open.spotify.com/episode/4ZT8NWxzjh1np4McL6ttMf",
+    "language": "English"
+  },
+  {
+    "title": "Open Socratic Discussion — BitVM Night with StarkWare & Ideal",
+    "date": "2026-02-18",
+    "link": "https://luma.com/3nhwh9zq",
+    "language": "English"
+  },
+  {
+    "title": "BitVM3 & The Garbled Circuits Revolution | with BitVM creators Robin Linus & Liam Eagen",
+    "date": "2026-02-26",
+    "link": "https://open.spotify.com/episode/15VMejoLSgbl5j1M0koHAe",
+    "language": "English"
+  },
+  {
+    "title": "Münzgasse #66 Bitcoin Realtalk (mit Robin Linus)",
+    "date": "2026-03-09",
+    "link": "https://open.spotify.com/episode/7tLwLGR46uRGd8omA2Pnpd",
+    "language": "German"
+  },
+  {
+    "title": "Münzgasse #67 Bitcoin: A Peer-to-Peer Electronic Cash System (mit Robin Linus)",
+    "date": "2026-03-31",
+    "link": "https://open.spotify.com/episode/6j3oYGFi3xVHy8DLmISnvZ",
+    "language": "German"
+  },
+  {
+    "title": "Münzweg #222 Bitcoin vs Satoshis (mit Robin Linus)",
+    "date": "2026-04-04",
+    "link": "https://open.spotify.com/episode/7L3YOITCulgFGmzVQIQ1wD",
+    "language": "German"
+  },
+  {
+    "title": "Transaction Introspection without Consensus Changes — MIT Bitcoin Expo 2026",
+    "date": "2026-04-11",
+    "link": "https://www.youtube.com/live/QoIqsKgqfHg?t=11293",
+    "language": "English"
+  },
+  {
+    "title": "Payments Maximalism: Digital Gold v Cypherpunk Cash | Robin Linus | OPNEXT '26",
+    "date": "2026-04-16",
+    "link": "https://www.youtube.com/watch?v=t7UiOSQIZqo",
+    "language": "English"
+  },
+  {
+    "title": "Is Digital Gold Enough? A Conversation with BitVM Creator Robin Linus — NYU Blockchain Lab",
+    "date": "2026-04-20",
+    "link": "https://luma.com/maeibgmj",
+    "language": "English"
+  },
+  {
+    "title": "The Bitcoin Virtual Machine Breakthrough Nobody Saw Coming w/ Robin Linus",
+    "date": "2026-04-25",
+    "link": "https://www.youtube.com/watch?v=lx9ZfbxEyUU",
+    "language": "English"
+  },
+  {
+    "title": "Argo Garbling Scheme, BitVM Bridges & Shielded CSV — Bitcoin 2026",
+    "date": "2026-04-28",
+    "link": "https://www.youtube.com/watch?v=oo4_PXLuAIw&vl=en",
+    "language": "English"
+  },
+  {
+    "title": "Münzgasse #69 Bitcoin-Skalierung (mit Christian Decker und Robin Linus)",
+    "date": "2026-05-05",
+    "link": "https://open.spotify.com/episode/7B460tkJft7GdQv4s9a14H",
+    "language": "German"
+  },
+  {
+    "title": "#184: BTC Catch Up ft. Vlad Costea, SuperTestnet, Robin Linus, Paul Sztorc",
+    "date": "2026-07-08",
+    "link": "https://www.youtube.com/watch?v=z54_mpzb5n8",
+    "language": "English"
+  },
+  {
+    "title": "Münzgasse #72 Angriffsvektor Bitcoin Social Layer – Panikmache oder echte Gefahr? (mit Roman Reher & Robin Linus)",
+    "date": "2026-07-22",
+    "link": "https://open.spotify.com/episode/1WgctCYzoic6HzH89Ljg96",
+    "language": "German"
+  },
+  {
+    "title": "Bitcoin Show & Tell #1 — hosted by Robin Linus & Casey Rodarmor",
+    "date": "2026-07-26",
+    "link": "https://x.com/robin_linus/status/2080116361431597196",
+    "language": "English"
+  },
+  {
+    "title": "#57 Der Fehler, der Bitcoin die 1 Mio. $ kostet | Robin Linus",
+    "date": "2026-08-17",
+    "link": "https://www.youtube.com/watch?v=p_27zSR9q60",
+    "language": "German"
+  },
+  {
+    "title": "Bitcoin Show & Tell #2 — hosted by Robin Linus & niftynei",
+    "date": "2026-08-23",
+    "link": "https://x.com/robin_linus/status/2089514326067757545",
+    "language": "English"
+  },
+  {
+    "title": "Bitcoin: Er zerstört mein Weltbild.",
+    "date": "2026-08-28",
+    "link": "https://www.youtube.com/watch?v=r1x8cOnOstE",
+    "language": "German"
+  },
+  {
+    "title": "Shielded CSV: Private and efficient client-side validation (Workshop on Cryptography for Bitcoin at Stanford)",
+    "date": "2026-07-23",
+    "link": "https://www.youtube.com/watch?v=oeX6Z4Z8aWE",
+    "language": "English"
+  },
+  {
+    "title": "Münzgasse #74 Ohne Fork wird Bitcoin sterben (mit Jan-Paul, Max Hillebrand & Robin Linus)",
+    "date": "2026-09-08",
+    "link": "https://serve.podhome.fm/episodepage/muenzweg/360",
+    "language": "German"
+  },
+  {
+    "title": "The Bitcoin Adoption Curve Is Starting — BTC Prague 2026",
+    "date": "2026-09-15",
+    "link": "https://www.youtube.com/watch?v=ueY3kaDo9B8",
+    "language": "English"
+  },
+  {
+    "title": "Privacy Payments on Bitcoin: Glass Coins feat. Robin Linus",
+    "date": "2026-09-16",
+    "link": "https://www.youtube.com/watch?v=GxFSPv5_uQw",
+    "language": "English"
+  }
+]

@@ -1,6 +1,221 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL=http://robinlinus.com/">
-  </head>
-  <a href="http://robinlinus.com/">robinlinus.com</a>
+
+<head>
+    <meta charset="utf-8">
+    <title>Robin Linus</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Robin Linus - Bitcoin development and research">
+
+    <base target="_blank" rel="nofollow">
+    <style>
+    html {
+        font-family: system-ui;
+        --cta-color: #1565c0;
+        padding: 0;
+    }
+
+    main {
+        padding-top: 32px;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    li,
+    p {
+        line-height: 24px;
+    }
+
+    h2 {
+        margin-top: 48px;
+        color: rgb(119 119 119);
+    }
+
+    footer {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+    }
+
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        color: var(--cta-color);
+    }
+
+    a:after {
+        content: '';
+        transform: scaleX(0);
+        transition: transform 200ms ease-in;
+        will-change: transform;
+        background: var(--cta-color);
+        opacity: 0.7;
+        height: 1px;
+        width: 100%;
+        display: block;
+        margin-top: -2px;
+    }
+
+    a:hover:after {
+        transform: scale(1);
+    }
+
+
+    #links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links:after {
+        content: none;
+    }
+
+    #links div {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    h1 {
+        letter-spacing: 0.10em;
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    body {
+        border-left: 12px solid #ff9900b3;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-right: 16px;
+        padding-left: 16px;
+    }
+    @media (max-width: 520px) {
+        body {
+            border-left-width: 4px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            margin-right: 12px;
+            padding-left: 12px;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Robin Linus</h1>
+
+        <h2>Stuff I like</h2>
+        <p><b style="color:#FF9900; font-weight: 900; letter-spacing: 0.1em;">Bitcoin.</b> <i>A math-based money anchored into physics. A machine producing an incorruptible truth. A solid foundation for healthy societies.</i></p>
+        <ul>
+            <li>Applied cryptography. Usability and scalability research</li>
+            <li>Open source software engineering</li>
+            <li>Product design, development, and simplicity</li>
+        </ul>
+        <h2>Some stuff I do</h2>
+        <ul>
+            <li>
+                <a href="https://bitvm.org">BitVM</a>: <q>Compute Anything on Bitcoin</q>. 
+            </li>
+            <li>
+                <a href="https://bitvm.org/bitvm_bridge.pdf">BitVM Bridge</a>: <q>Bridging Bitcoin to Second Layers</q>. A collaboration with Matteo Maffei and his Security and Privacy group at TU Wien (presented at the <i>Science of Blockchain Conference</i> at Berkeley). This work received the <a href="https://brd.chaincode.com/#prize">Bitcoin Research Price 2025</a>.
+            </li>
+            <li>
+                <a href="https://eprint.iacr.org/2026/933">BitVM3</a>: <q>Efficient computation on Bitcoin using garbled circuits.</q>
+            </li>
+            <li>
+                <a href="https://robinlinus.com/bitvm448.pdf">BitVM-448</a>: <q>Covenant-Based BitVM3 Bridges</q>
+            </li>
+            <li>
+                <a href="https://zerosync.org">ZeroSync</a>: A STARK proof to verify Bitcoin's chain state in an instant.
+            </li>
+            <li>
+                <a href="https://coins.github.io/stakechains.pdf">Stakechains</a>: A Bitcoin-backed proof-of-stake algorithm based on one-time Schnorr signatures (presented at <a href="https://fc22.ifca.ai/codecfin/">CoDecFin'22</a>). Also co-authored a <a href="https://arxiv.org/abs/2408.01896">research paper</a> on this topic with David Tse and his group at Stanford University.
+            </li>
+            <li>
+                <a href="https://gist.github.com/RobinLinus/d036511015caea5a28514259a1bab119">zkCoins</a>: A payment system with strong privacy and scalability, combining a client-side validation protocol with validity proofs. Co-authored a <a href="https://eprint.iacr.org/2025/068">research paper</a> on this topic with Liam Eagen and Jonas Nick from Blockstream Research.
+            </li>
+            <li>
+                <a href="https://robinlinus.com/bitstream.pdf">BitStream</a>: Decentralized file hosting incentivised via Bitcoin payments.
+            </li>
+            <li>
+                <a href="https://robinlinus.com/vrf.pdf">VRF in the Scalar</a>: A protocol for fair data exchange using a verifiable random function in the scalar.
+            </li>
+            <li>
+                <a href="https://robinlinus.com/binohash.pdf">Binohash</a>: Transaction introspection without softforks. Using Bitcoin's variable-length ECDSA DER encoding as a side channel to read transactions in Bitcoin script.
+            </li>
+            <li>
+                I am a <a href="https://profiles.stanford.edu/robinlinus">Ph.D. candidate at Stanford University</a>, focusing on the scalability, privacy, and usability of Bitcoin.
+            </li>
+        </ul>
+        <h2>Other stuff I did for fun</h2>
+        <h3>Bitcoin</h3>
+        <ul>
+            <li>
+                Designing <a href="https://gist.github.com/robinlinus">protocols on top of Bitcoin</a> such as <a href="https://gist.github.com/RobinLinus/4e7467abaf0a0f8a521d5b512dca4833">improved stealth addresses</a>, <a href="https://github.com/coins/research/blob/master/bitcoin-nano-network.md">light clients</a>, or an <a href="https://gist.github.com/RobinLinus/4035ced3fa04cc3745a30dcda09e2367">OR operator for DLCs and PTLCs</a> based on verifiable encryption.
+            </li>
+            <li>
+                <a href="https://gist.github.com/RobinLinus/1102fce176f3b5466180addac5d26313">Some Day Peg</a>: Betting on the activation of a two-way peg bridging BTC to other chains. Co-created with Burak and Super Testnet.
+            </li>
+            <li>
+                <a href="https://bitcoin-dex.net/faq/">Bitcoin DEX</a> (backend is down). A trading protocol based on <a href="https://github.com/bitcoin-dex/bitcoin-dex/blob/main/bitcoin-dex.md#non-interactive-swaps">non-interactive atomic swaps</a> using <i>sighash_single</i>. A <a href="https://github.com/bitcoin-dex/bitcoin-dex/blob/main/peg-contract/peg.sol">Bitcoin SPV client in Solidity</a> for a <a href="https://github.com/bitcoin-dex/bitcoin-dex/blob/main/optimistic_2-way_peg.md">trustless two-way peg</a> between Ethereum and Bitcoin.
+            </li>
+            <li>
+                Simple <a href="https://bitcoin.robinlinus.com/#signup">Bitcoin web app</a>. Usability research on key management, using secure key generation from email and password via a <a href="https://keybase.io/warp/warp_1.0.9_SHA256_a2067491ab582bde779f4505055807c2479354633a2216b22cf1e92d1a6e4a87.html">WarpWallet</a>, and storing credentials in the Browser's password manager. A related work is <a href="https://github.com/coins/secure-bookmark">Secure Bookmarks</a>, co-created with Egor Homakov.
+            </li>
+            <li>
+                <a href="https://github.com/coins/bitcoin-scripts">Exotic Bitcoin Scripts</a> such as <a href="https://github.com/coins/bitcoin-scripts/blob/master/tic-tac-toe.md">TicTacToe in a Schnorr signature</a>, or <a href="https://github.com/coins/bitcoin-scripts/blob/master/composite-opcodes.md#op_2div">nondeterministic programming</a>.
+            </li>
+            <li>
+                OP_CAT magic such as emulating <a href="https://gist.github.com/RobinLinus/9a69f5552be94d13170ec79bf34d5e85">covenants using ECDSA</a>, emulating <a href="https://gist.github.com/RobinLinus/8890ded496c9c12796dc6a65c196a147">EC multiplication</a>, and exploring <a href="https://delvingbitcoin.org/t/perpetually-kycd-coins-using-evil-covenants/556">Evil Covenants</a>.
+            </li>
+            <li>
+                <a href="https://darkskippy.com">Dark Skippy</a>: A novel mechanism for key exfiltration attacks. Co-created with Lloyd Fournier and Nick Farrow.
+            </li>
+            <li>
+                Mechanisms for replay protection based on <a href="https://gist.github.com/RobinLinus/48d08307e960e4461b3e4b4feabf29e9">dust inputs</a>, or reserved <a href="https://gist.github.com/RobinLinus/c9bde57d6e7eda9e447909fae35ec0b1">nLocktime</a> ( implemented by ecash.com)
+            </li>
+        </ul>
+        <h3>Script Wizardry</h3>
+        A selection of my love letters to Satoshi's Bitcoin Script:
+        <ul>
+            <li>The first <a href="https://mempool.space/tx/1b5fa01f54d9dca7758eef0b7f192dea8e0abd4b581408945021c207a8e6a761?showDetails=true">SHA2-ECDSA Polyglot</a>: A SHA2 hash, which is simultanously a valid signature.</li>
+            <li>The first <a href="https://mempool.space/tx/203d82a95ac621439e4f35e5d59476e3058579482fe5396244c3b6a36ab95f30?showDetails=true">Binohash script</a>: transaction introspection without a softfork.</li>
+            <li>The first <a href="https://mempool.space/tx/8ecfefd438a229c7cea10f6973f49d8bbe3a620fd557f7f2cb3658ac59510249?showDetails=true">BitVM2</a> challenge demo.</li>
+            <li>The first <a href="https://mempool.space/tx/d8a091a7f5ffa4993681b3df688968fd274bc76897b8b3953309ffad6055f4b0?showDetails=true">Blake3 implementation</a> in Bitcoin Script.</li>
+        </ul>
+        <h3>Side Projects</h3>
+        <ul>
+            <li>
+                <a href="https://snapdrop.me">SnapDrop</a>: share files on your local network. Had millions of monthly users since its launch in 2016.
+            </li>
+            <li>
+                Raised awareness for known privacy issues in browsers and web platforms (e.g. Github, StackOverflow, Instagram) to create public awareness to <a href="https://twitter.com/codinghorror/status/786259854235009024">fix</a> <a href="https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/">them</a>. E.g. <a href="https://news.ycombinator.com/item?id=11407536">"webkay"</a> and <a href="https://www.reddit.com/r/programming/comments/5741xk/your_social_media_fingerprint/">"social media leak"</a>.
+            </li>
+            <li>
+                Discovered security bugs in major software products and received bug bounties from companies like Google, Twitter, and Apple.
+            </li>
+        </ul>
+        <h2>Media</h2>
+        <p>A list of <a href="media" target="_self">talks, podcasts and interviews</a> I have appeared on.</p>
+    </main>
+    <footer>
+        <div id="links">
+            <span>💪🤓🧡</span>
+            <div>
+                <a href="https://github.com/robinlinus" title="Open source development on Github">GitHub</a> |
+                <a href="https://twitter.com/intent/follow?region=follow_link&screen_name=robin_linus">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
